@@ -9,8 +9,10 @@ public class Main {
 		String Answer = FizzBuzz(i);
 		if(Answer.equals("None"))
 	       System.out.println(i);
-		else
+		else if(Answer.equals("Fizz")) //if the number is divided by 3
 			System.out.println(Answer);
+		else if(Answer.equals("Buzz"))
+			System.out.println(Answer); // if the number is divided by 5
 		}
 	}
 
