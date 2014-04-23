@@ -6,14 +6,20 @@ public class Main {
 	{
 		for(int i=1;i<=100;i++)
 		{
-		int Answer = FizzBuzz(i);
-	       System.out.println(Answer);
+		String Answer = FizzBuzz(i);
+		if(Answer.equals("None"))
+	       System.out.println(i);
+		else
+			System.out.println(Answer);
 		}
 	}
 
 	
-	static int FizzBuzz(int n) {
-		return n;
+	static String FizzBuzz(int n) {
+		if(n%3 == 0)
+			return "Fizz";
+		else
+			return "None";
 	}
 
 	
