@@ -4,7 +4,7 @@ public class Main {
 
 	public static void main (String[] args) 
 	{
-		int Answer = FizzBuzz(0);
+		int Answer = FizzBuzz(1);
 	       System.out.println(Answer);
 	}
 
