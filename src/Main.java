@@ -10,7 +10,7 @@ public class Main {
 
 	
 	static int FizzBuzz(int n) {
-		return 0;
+		return n;
 	}
 
 	
